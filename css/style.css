@@ -67,6 +67,14 @@ a {
     text-transform: uppercase;
 }
 
+.h-120 {
+    height: 120px
+}
+
+.h-60 {
+    height: 60px
+}
+
 .h-30 {
     height: 30px
 }
@@ -90,14 +98,37 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+  color: #ffbf00;
+  font-size: 30px;
+}
+
 h3 {
     color: #393939;
+}
+
+.not-regular {
+  margin: 0px;
+  color: #393939
+}
+
+h4 {
+  color: #393939;
+  font-size: 18px;
 }
 
 h5 {
     color: #ffbf00;
 }
 
+/* Hairline
+==================================================*/
+hr {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 2px solid #ffbf00;
+}
 
 /* preloader
 ==================================================*/
